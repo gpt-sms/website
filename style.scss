@@ -71,6 +71,34 @@ ul {
       transition: filter 300ms;
       filter: drop-shadow(0 0 2em #646cffaa);
     }
+
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      a {
+        border-radius: 0.2em;
+        padding: 0.3em;
+      }
+      .patreon {
+        color: #f96854;
+        border: 1px solid #f96854;
+        filter: drop-shadow(0 0 2em #f96854);
+
+        &:hover {
+          filter: drop-shadow(0 0 2em #f78f81);
+        }
+      }
+      .paypal {
+        color: #3b7bbf;
+        border: 1px solid #3b7bbf;
+        filter: drop-shadow(0 0 2em #3b7bbf);
+        &:hover {
+          filter: drop-shadow(0 0 2em #618ebe);
+        }
+      }
+    }
   }
 
   main {
@@ -148,28 +176,35 @@ ul {
         filter: drop-shadow(0 0 2em white);
         margin-bottom: 0;
       }
-      .donate {
-        background-color: #fec349;
-        padding: 0.5em 1em;
-        border-radius: 15px;
 
-        font-weight: bold;
-        color: black;
-
-        :hover {
-          filter: drop-shadow(0 0 2em #fec349);
+      .social {
+        display: flex;
+        gap: 24px;
+        margin-top: 2em;
+        .paypal {
+          background-color: #3b7bbf;
+          padding: 0.5em 1em;
+          border-radius: 15px;
+  
+          font-weight: bold;
+          color: black;
+  
+          :hover {
+            filter: drop-shadow(0 0 2em #fec349);
+          }
         }
-      }
-      .patreon {
-        background-color: #535bf2;
-        padding: 0.5em 1em;
-        border-radius: 15px;
-
-        font-weight: bold;
-        color: black;
-
-        :hover {
-          filter: drop-shadow(0 0 2em #fec349);
+  
+        .patreon {
+          background-color: #f96854;
+          padding: 0.5em 1em;
+          border-radius: 15px;
+  
+          font-weight: bold;
+          color: black;
+  
+          :hover {
+            filter: drop-shadow(0 0 2em #fec349);
+          }
         }
       }
     }
