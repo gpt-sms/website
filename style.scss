@@ -71,42 +71,48 @@ ul {
       transition: filter 300ms;
       filter: drop-shadow(0 0 2em #646cffaa);
     }
-
-    .social {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-
-      a {
-        border-radius: 0.2em;
-        padding: 0.3em;
-      }
-      .patreon {
-        color: #f96854;
-        border: 1px solid #f96854;
-        filter: drop-shadow(0 0 2em #f96854);
-
-        &:hover {
-          filter: drop-shadow(0 0 2em #f78f81);
-        }
-      }
-      .paypal {
-        color: #3b7bbf;
-        border: 1px solid #3b7bbf;
-        filter: drop-shadow(0 0 2em #3b7bbf);
-        &:hover {
-          filter: drop-shadow(0 0 2em #618ebe);
-        }
-      }
-    }
   }
 
   main {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    max-width: 1024px;
+    max-width: 920px;
 
+    .banner {
+      .social {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    
+        a {
+          border-radius: 0.2em;
+          padding: 0.3em 1em;
+          min-width: 4em;
+          text-align: center;
+        }
+    
+        .patreon {
+          color: #f96854;
+          border: 1px solid #f96854;
+          filter: drop-shadow(0 0 2em #f96854);
+    
+          &:hover {
+            filter: drop-shadow(0 0 2em #f78f81);
+          }
+        }
+    
+        .paypal {
+          color: #3b7bbf;
+          border: 1px solid #3b7bbf;
+          filter: drop-shadow(0 0 2em #3b7bbf);
+    
+          &:hover {
+            filter: drop-shadow(0 0 2em #618ebe);
+          }
+        }
+      }
+    }
     .about {
       font-size: 18px;
     }
