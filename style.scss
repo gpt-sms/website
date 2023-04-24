@@ -33,11 +33,11 @@ body {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #A3A8FF;
   text-decoration: inherit;
 
   :hover {
-    color: #535bf2;
+    color: #A3A8FF;
   }
 }
 
@@ -69,7 +69,7 @@ ul {
       padding: 1.5em 1.5em 1.5em 0;
       will-change: filter;
       transition: filter 300ms;
-      filter: drop-shadow(0 0 2em #646cffaa);
+      filter: drop-shadow(0 0 2em #A3A8FFaa);
     }
   }
 
@@ -103,9 +103,9 @@ ul {
         }
     
         .paypal {
-          color: #3b7bbf;
-          border: 1px solid #3b7bbf;
-          filter: drop-shadow(0 0 2em #3b7bbf);
+          color: #89B5D7;
+          border: 1px solid #89B5D7;
+          filter: drop-shadow(0 0 2em #89B5D7);
     
           &:hover {
             filter: drop-shadow(0 0 2em #618ebe);
@@ -142,7 +142,7 @@ ul {
           display: flex;
           align-items: center;
           gap: 8px;
-          border: 1px solid #535bf2;
+          border: 1px solid #A3A8FF;
           background-color: #303030;
           padding: 1em;
           border-radius: 5px;
@@ -165,7 +165,7 @@ ul {
           height: 10px;
           border-radius: 50%;
           background-color: #303030;
-          border: 1px solid #535bf2;
+          border: 1px solid #A3A8FF;
         }
       }
     }
@@ -173,7 +173,7 @@ ul {
     .support {
       h3 {
         font-size: 30px;
-        color: #535bf2;
+        color: #7151c6;
         background-color: rgba(255, 255, 255, 0.925);
         width: fit-content;
         border-radius: 5px;
